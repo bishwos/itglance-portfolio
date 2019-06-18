@@ -1,0 +1,104 @@
+/* reduce line height */
+.reduceline-height{
+    line-height: 55px;
+}
+
+.bold-title{
+    font-size: 3.2em;
+    text-transform: capitalize;
+    color: #20293d;
+    font-weight: bold;
+    margin: 30px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.description{
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.small-title{
+    text-transform: uppercase;
+}
+
+
+/* css for call for projects */
+.call-for-project-wrapper{
+
+}
+
+.call-for-project-wrapper .call-for-project-content .project-call-header{
+    padding: 20px;
+}
+.call-for-project-wrapper .call-for-project-content .project-call-header h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #20293d
+
+}
+.call-for-project-wrapper .call-for-project-content .project-call-header h2 span{
+    color: #2486b9
+}
+.call-for-project-wrapper .call-for-project-content .project-process{
+    margin: 20px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align: left;
+}
+.call-for-project-wrapper .call-for-project-content .project-process .project-process-step{
+    border-right: 1px dashed #ebebeb;
+    width: 20%;
+}
+.call-for-project-wrapper .call-for-project-content .project-process .project-process-step:nth-last-child(1){
+    border: none;
+    /* width: 20%; */
+}
+.call-for-project-wrapper .call-for-project-content .project-process .project-process-step .title h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.call-for-project-wrapper 
+.call-for-project-content 
+.project-process 
+.project-process-step 
+.title h2 i{
+    color: #2486b9;
+    font-size: 1.2rem;
+    transition: all 1s ease-in-out;
+}
+.call-for-project-wrapper 
+.call-for-project-content 
+.project-process 
+.project-process-step 
+.title h2:hover{
+    color: #2486b9;
+    cursor: pointer;
+    /* font-weight: bold; */
+}
+.call-for-project-wrapper 
+.call-for-project-content 
+.project-process 
+.project-process-step 
+.title h2:hover i{
+    color: #2486b9;
+    margin-left: 15px;
+    /* font-weight: bold; */
+}
+
+
+@media(max-width: 768px){
+    .call-for-project-wrapper .call-for-project-content .project-process{
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .call-for-project-wrapper .call-for-project-content .project-process .project-process-step{
+        /* flex-direction: column; */
+        width: 100%;
+        padding: 20px 0;
+        border-right: none;
+        border-bottom: 1px dashed #ebebeb;
+    }
+}
